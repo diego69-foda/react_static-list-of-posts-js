@@ -1,3 +1,5 @@
+import { UserInfo } from '../UserInfo/UserInfo';
+
 export const PostInfo = () => (
   <div className="PostInfo">
     <div className="PostInfo__header">
@@ -6,9 +8,7 @@ export const PostInfo = () => (
       <p>
         {' Posted by  '}
 
-        <a className="UserInfo" href="mailto:Julianne.OConner@kory.org">
-          Patricia Lebsack
-        </a>
+        <UserInfo />
       </p>
     </div>
 
