@@ -1,7 +1,7 @@
 import { PostInfo } from '../PostInfo/PostInfo';
 
-export const PostList = () => (
+export const PostList = ({ posts, comments, users }) => (
   <div className="PostList">
-    <PostInfo />
+    <PostInfo posts={posts} comments={comments} users={users} />
   </div>
 );
